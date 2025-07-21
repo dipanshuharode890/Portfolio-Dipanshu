@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './routes/Home';
-import { Helmet } from 'react-helmet-async';
+import { Helmet } from 'react-helmet';
 
 function App() {
   return (
