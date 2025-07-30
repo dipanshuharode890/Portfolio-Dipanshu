@@ -1,9 +1,14 @@
+import { title } from 'framer-motion/client';
 import Emart from '../assets/Emart.png';
+import Todo from '../assets/Todo.png';
+import CurrencyCon from '../assets/CurrencyCon.png';
+import PasswordGen from '../assets/PasswordGen.png';
 import Country from '../assets/countryinfo.png';
 import Emptask from '../assets/emptask.png';
 import ImageSlider from '../assets/imageSlider.png';
 import Stonepaper from '../assets/stonepaper.png';
 import Tictoc from '../assets/tictoc.png';
+
 
 export const siteData = {
   name: "Dipanshu Harode",
@@ -16,7 +21,7 @@ export const siteData = {
   portfolio: "https://dipanshuportfolio.vercel.app/",
   resume: "/resume.pdf",
   skills: {
-    frontend: ["HTML5", "CSS", "JavaScript", "React", "Tailwind CSS", "Redux"],
+    frontend: ["HTML5", "CSS", "JavaScript", "React19", "Tailwind CSS", "Redux"],
     tools: ["GitHub", "Vite", "Axios", "Vercel"],
     learning: ["TypeScript", "Next.js"]
   },
@@ -30,12 +35,36 @@ export const siteData = {
       demo: "https://emart-lemon-psi.vercel.app/"
     },
     {
+      image: Todo,
+      title: "ToDo App",
+      description: "A simple and intuitive task management application built using React. It allows users to add, delete, and mark tasks as complete. The app uses React hooks and context API for state management, ensuring a clean and scalable structure. Designed with a responsive UI for a smooth user experience across devices.",
+      tech: ["React 19", "Tailwind CSS", "JavaScript", "Local storage"],
+      github: "https://github.com/dipanshuharode890",
+      demo: "https://react-projects-pied-one.vercel.app/"
+    },
+    {
+      image: CurrencyCon,
+      title: "Currency - Converter",
+      description: "A real-time currency converter built with React. It fetches live exchange rates using a custom API hook and allows users to convert between multiple currencies instantly. Features include two-way conversion, dynamic dropdowns for currency selection, and a responsive user interface for seamless usage on all devices.",
+      tech: ["React 19", "Tailwind CSS", "JavaScript", "Local storage"],
+      github: "https://github.com/dipanshuharode890",
+      demo: "https://react-projects-52wt.vercel.app/"
+    },
+    {
+      image: PasswordGen,
+      title: "Password - Generator",
+      description: "A secure and customizable password generator built with React. Users can generate strong passwords by selecting length and character options like uppercase, lowercase, numbers, and symbols. It includes copy-to-clipboard functionality, strength indicators, and a clean, user-friendly interface.",
+      tech: ["React 19", "Tailwind CSS", "JavaScript", "Local storage"],
+      github: "https://github.com/dipanshuharode890",
+      demo: "https://react-projects-udfi.vercel.app/"
+    },
+    {
       image: Country ,
       title: "Country Info App",
       description: "This project is a dynamic web application built with HTML, CSS, and React JS that provides detailed information about countries. It leverages Axios to efficiently fetch data from a public API, displaying details such as flags, population, area, region, capital, currencies, languages, timezones, and neighboring countries. React-Router-Dom is used for seamless navigation, allowing users to explore different country profiles via unique URLs and potentially filter or search through the country list. This creates an interactive and informative user experience for exploring global data.",
       tech: ["React", "Tailwind CSS", "REST API"],
       github: "https://github.com/dipanshuharode890",
-      demo: "https://country-project-kqq6.vercel.app/"
+      demo: "https://country-project-blond.vercel.app/"
     },
     {
       image: Emptask ,
@@ -72,14 +101,14 @@ export const siteData = {
   ],
   education: [
     {
-      title: "B.Com (Computer Application)",
+      title: "B.Com (Computer Application) 1st. Year",
       institution: "PMB Gujrati Commerce College, Indore",
-      date: "2019 - 2022"
+      date: "2018 - 2019"
     },
     {
       title: "Higher Secondary",
       institution: "Sardana Public School, Dewas",
-      date: "2019"
+      date: "2018"
     }
   ],
   experience: [
@@ -88,21 +117,21 @@ export const siteData = {
       company: "Flipkart Warehouse (Return Center)",
       location: "Indore",
       date: "Feb 2023 - Dec 2024",
-      description: "Inspected and tagged returned products, ensured accurate placement."
+      description: "As an Executive at the Flipkart Warehouse (Return Center) in Indore for two years, I was responsible for processing customer product returns. My duties included thoroughly inspecting product conditions, entering acceptable items into the system, applying necessary tags, and ensuring their correct placement on designated racks. I also efficiently segregated and managed defective or unacceptable products in a dedicated area."
     },
     {
       title: "Assistant Supervisor",
       company: "Friends Enterprises",
       location: "Dewas",
       date: "Jan 2020 - Mar 2021",
-      description: "Handled inventory, marking, and final quality checks of vehicle parts."
+      description: "As an Assistant Supervisor at Friends Enterprises in Dewas for two years, I collaborated closely with the supervisor in the manufacturing of vehicle parts (gears). My responsibilities included counting raw components, managing parts inventory and their storage locations, performing product marking, and conducting quality checks on final products before dispatch."
     },
     {
       title: "Computer Operator",
       company: "Rajat Jewellers",
       location: "Dewas",
       date: "May 2018 - Nov 2019",
-      description: "Managed billing operations and customer transactions."
+      description: "As a Computer Operator at Rajat Jewelers in Dewas, I managed billing operations using Acme Infinity Software, handled customer transactions, and supported sales activities for one year."
     }
   ],
   
